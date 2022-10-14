@@ -33,7 +33,7 @@ export const Large: StoryObj<TextProps> = {
 
 export const CustomComponent: StoryObj<TextProps> = {
   args: {
-    asChield: true,
+    asChild: true,
     children: <p>Paragraph</p>,
   },
   argTypes: {
@@ -42,7 +42,7 @@ export const CustomComponent: StoryObj<TextProps> = {
         disable: true,
       },
     },
-    asChield: {
+    asChild: {
       table: {
         disable: true,
       },
